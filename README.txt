@@ -24,7 +24,7 @@ Passo 1: Obter o arquivo do projeto
 1. Baixe o repositório do GitHub:
    - OpenMic: https://github.com/LucasTavares01/OpenMic.git
 2. Após baixar o arquivo:
-   - O arquivo será descompactado em uma pasta com o nome OpenMic-main. Renomeie essa pasta para OpenMic.
+   - O arquivo será descompactado em uma pasta com o nome OpenMic-master. Renomeie essa pasta para OpenMic.
    - Certifique-se de que dentro da pasta OpenMic já estejam os arquivos do projeto e não outra pasta com o mesmo nome.
 
 Passo 2: Configurar o XAMPP
