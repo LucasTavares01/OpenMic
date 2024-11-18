@@ -56,8 +56,8 @@ Passo 4: Configurar a Interface Web (karaoke-web)
 2. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
    - Confure a variável NEXTAUTH_SECRET= com uma senha qualqualquer:
    - Exemplo: NEXTAUTH_SECRET="senha123"
-3. No PowerShell, execute como administrador:
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. No PowerShell, execute como administrador: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   - Quando solicitado, digite A e aperte enter
    - Isso permite a instalação de dependências do Node.js.
 4. No terminal do VS Code, execute:
    npm install
