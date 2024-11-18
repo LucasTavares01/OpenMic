@@ -35,8 +35,7 @@ Passo 2: Configurar o XAMPP
 
 Passo 3: Configurar a API (karaoke-api)
 1. Abra a pasta karaoke-api no VS Code.
-2. No terminal, execute:
-   composer install
+2. No terminal, execute: composer install
    - Esse processo pode levar até 20 minutos.
 3. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
 4. Insira as seguintes informações ao final do arquivo .env:
