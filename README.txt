@@ -55,7 +55,7 @@ Passo 4: Configurar a Interface Web (karaoke-web)
 1. Abra a pasta karaoke-web em uma nova página do VS Code.
 2. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
    - Confure a variável NEXTAUTH_SECRET= com uma senha qualqualquer:
-   - NEXTAUTH_SECRET="senha123"
+   - Exemplo: NEXTAUTH_SECRET="senha123"
 3. No PowerShell, execute como administrador:
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    - Isso permite a instalação de dependências do Node.js.
