@@ -21,11 +21,11 @@ Certifique-se de ter os seguintes softwares instalados:
 Configuração do Projeto
 
 Passo 1: Obter os arquivos do projeto
-1. Baixe os repositórios do GitHub:
+1. Baixe o repositório do GitHub:
    - OpenMic: https://github.com/LucasTavares01/OpenMic.git
-2. Após baixar os arquivos:
-   - Os arquivos serão descompactados em pastas com nomes como karaoke-web-main. Renomeie essa pasta para karaoke-web.
-   - Certifique-se de que dentro da pasta karaoke-web já estejam os arquivos do projeto e não outra pasta com o mesmo nome. O mesmo vale para o karaoke-api.
+2. Após baixar o arquivo:
+   - O arquivo será descompactado em uma pasta com o nome OpenMic-main. Renomeie essa pasta para OpenMic.
+   - Certifique-se de que dentro da pasta karaoke-web já estejam os arquivos do projeto e não outra pasta com o mesmo nome.
 
 Passo 2: Configurar o XAMPP
 1. Inicie o Apache e o MySQL.
