@@ -38,7 +38,7 @@ Passo 3: Configurar a API (karaoke-api)
 2. No terminal, execute: composer install
    - Esse processo pode levar até 20 minutos.
 3. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
-4. Insira as seguintes informações ao final do arquivo .env:
+4. Copie as seguintes informações ao final do arquivo .env:
    API_YOUTUBE_URL="https://www.googleapis.com/youtube/v3"
    API_YOUTUBE_KEY="sua-chave-da-api"
    JWT_SECRET=sua_chave_jwt_secret
