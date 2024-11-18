@@ -20,12 +20,12 @@ Certifique-se de ter os seguintes softwares instalados:
 
 Configuração do Projeto
 
-Passo 1: Obter os arquivos do projeto
+Passo 1: Obter o arquivo do projeto
 1. Baixe o repositório do GitHub:
    - OpenMic: https://github.com/LucasTavares01/OpenMic.git
 2. Após baixar o arquivo:
    - O arquivo será descompactado em uma pasta com o nome OpenMic-main. Renomeie essa pasta para OpenMic.
-   - Certifique-se de que dentro da pasta karaoke-web já estejam os arquivos do projeto e não outra pasta com o mesmo nome.
+   - Certifique-se de que dentro da pasta OpenMic já estejam os arquivos do projeto e não outra pasta com o mesmo nome.
 
 Passo 2: Configurar o XAMPP
 1. Inicie o Apache e o MySQL.
@@ -47,7 +47,7 @@ Passo 3: Configurar a API (karaoke-api)
    - Gere uma chave para o JWT_SECRET com o comando:
      node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 5. Execute os comandos abaixo para finalizar a configuração da API:
-   php artisan jwt:secret
+   php artisan jwt:secret - Quando solicitado, digite Yes
    php artisan key:generate
    php artisan migrate:fresh
    php artisan serve
@@ -55,6 +55,8 @@ Passo 3: Configurar a API (karaoke-api)
 Passo 4: Configurar a Interface Web (karaoke-web)
 1. Abra a pasta karaoke-web no VS Code.
 2. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
+   - Confure a variável NEXTAUTH_SECRET= com uma senha qualqualquer:
+   - NEXTAUTH_SECRET="senha123"
 3. No PowerShell, execute como administrador:
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    - Isso permite a instalação de dependências do Node.js.
@@ -74,11 +76,13 @@ Passo 5: Configurar o Postman
        - Current Value: http://127.0.0.1:8000/api
      - token:
        - Deixe os campos em branco.
+   - Pressione CTRL + S para salvar as alterações
 4. No canto superior direito do Postman, selecione o ambiente OpenMic.
 5. Acesse as rotas de criação:
    - Na aba Collections, expanda a pasta administrators.
    - Clique no arquivo post/admin/.
    - Na aba Body, insira um login e senha para criar o administrador.
+   - Pressione CTRL + S para salvar as alterações
    - Clique em Send para finalizar.
 
 Passo 6: Testar o Projeto
