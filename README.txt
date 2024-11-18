@@ -29,7 +29,7 @@ Passo 1: Obter o arquivo do projeto
 
 Passo 2: Configurar o XAMPP
 1. Inicie o Apache e o MySQL.
-2. Clique no botão Admin do Apache.
+2. Clique no botão Admin do MySQL.
 3. Na interface do phpmyadmin:
    - Crie um banco de dados chamado karaokedb.
 
