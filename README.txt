@@ -52,7 +52,7 @@ Passo 3: Configurar a API (karaoke-api)
    php artisan serve
 
 Passo 4: Configurar a Interface Web (karaoke-web)
-1. Abra a pasta karaoke-web no VS Code.
+1. Abra a pasta karaoke-web em uma nova página do VS Code.
 2. Copie o arquivo .env.example para a raiz do projeto e renomeie-o para .env.
    - Confure a variável NEXTAUTH_SECRET= com uma senha qualqualquer:
    - NEXTAUTH_SECRET="senha123"
