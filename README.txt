@@ -22,8 +22,7 @@ Configuração do Projeto
 
 Passo 1: Obter os arquivos do projeto
 1. Baixe os repositórios do GitHub:
-   - karaoke-api: https://github.com/LucasTavares01/karaoke-api.git
-   - karaoke-web: https://github.com/LucasTavares01/karaoke-web.git
+   - OpenMic: https://github.com/LucasTavares01/OpenMic.git
 2. Após baixar os arquivos:
    - Os arquivos serão descompactados em pastas com nomes como karaoke-web-main. Renomeie essa pasta para karaoke-web.
    - Certifique-se de que dentro da pasta karaoke-web já estejam os arquivos do projeto e não outra pasta com o mesmo nome. O mesmo vale para o karaoke-api.
